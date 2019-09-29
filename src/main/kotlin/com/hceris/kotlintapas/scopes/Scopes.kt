@@ -1,8 +1,10 @@
 package com.hceris.kotlintapas.scopes
 
-fun reverseWords(s: String): String {
-    val words = s.split(" ")
-    val reversed = words.map { w -> w.reversed() }
-    return reversed.joinToString(separator = " ").reversed()
+fun reverseWords(s: String) = s.split(" ").let { words ->
+    words.map { w -> w.reversed() }.let { reversed ->
+        reversed
+            .joinToString(separator = " ")
+            .reversed()
+    }
 }
 
