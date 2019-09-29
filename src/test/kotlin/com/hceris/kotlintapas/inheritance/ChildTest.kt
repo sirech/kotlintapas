@@ -6,7 +6,7 @@ import strikt.assertions.isA
 import strikt.assertions.isEqualTo
 
 internal class ChildTest {
-    val instance = Child()
+    val instance = Child("world")
 
     @Test
     fun `child inherits from parent`() {

@@ -1,5 +1,5 @@
 package com.hceris.kotlintapas.inheritance
 
-class Parent(private val message: String) {
-    fun say() = message
+open class Parent(private val message: String) {
+    open fun say() = message
 }
