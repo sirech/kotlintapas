@@ -49,4 +49,5 @@ Switch to the `solutions` branch if you want to see the solutions for the exerci
 #### Other
 
 - [scopes](./src/main/kotlin/com/hceris/kotlintapas/scopes/README.md): Less verbosity with scopes
+- [extensions](./src/main/kotlin/com/hceris/kotlintapas/extensions/README.md): Extend objects with extension functions
 
