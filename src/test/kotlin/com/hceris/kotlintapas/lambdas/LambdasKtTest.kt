@@ -16,10 +16,9 @@ internal class LambdasKtTest {
         expectThat(sumOfSquaredEvenNumbers((1..10).toList())).isEqualTo(220)
     }
 
-    @Disabled("will take a while to run")
     @Test
     fun `sums a huge list`() {
         // it's ok to stop iterating at 100 elements
-        sumOfSquaredEvenNumbers((1..1000000000).toList())
+        sumOfSquaredEvenNumbers((1..1000000000).asSequence())
     }
 }
