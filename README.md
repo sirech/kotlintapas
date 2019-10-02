@@ -27,3 +27,25 @@ Tests can be run from _IntelliJ_ or in the console by using:
 ### Solutions
 
 Switch to the `solutions` branch if you want to see the solutions for the exercises as well.
+
+### List of exercises
+
+#### Classes
+
+- [dataclasses](./src/main/kotlin/com/hceris/kotlintapas/dataclasses/README.md): Get to know data classes, the alternative to [Lombok](https://projectlombok.org/)
+- [destructuring](./src/main/kotlin/com/hceris/kotlintapas/destructuring/README.md): Destructuring, a way of accessing multiple attributes at the same time
+- [inheritance](./src/main/kotlin/com/hceris/kotlintapas/inheritance/README.md): How does inheritance look like in _Kotlin_?
+
+#### Functions
+
+- [Higher-order functions](./src/main/kotlin/com/hceris/kotlintapas/higherorderfunctions/README.md): Functions that receive or return functions
+- [Lambdas](./src/main/kotlin/com/hceris/kotlintapas/lambdas/README.md): Expressing your code in terms of lambdas
+
+#### Collections
+
+- [ranges](./src/main/kotlin/com/hceris/kotlintapas/ranges/README.md): How to manipulate ranges
+
+#### Other
+
+- [scopes](./src/main/kotlin/com/hceris/kotlintapas/scopes/README.md): Less verbosity with scopes
+
