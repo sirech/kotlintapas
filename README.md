@@ -39,6 +39,7 @@ Switch to the `solutions` branch if you want to see the solutions for the exerci
 #### Functions
 
 - [Higher-order functions](./src/main/kotlin/com/hceris/kotlintapas/higherorderfunctions/README.md): Functions that receive or return functions
+- [Lambdas](./src/main/kotlin/com/hceris/kotlintapas/lambdas/README.md): Expressing your code in terms of lambdas
 
 #### Collections
 
