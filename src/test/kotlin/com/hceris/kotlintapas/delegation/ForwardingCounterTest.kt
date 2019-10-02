@@ -5,7 +5,7 @@ import strikt.api.expectThat
 import strikt.assertions.isEqualTo
 
 internal class ForwardingCounterTest {
-    val subject = ForwardingCounter(0)
+    val subject = ForwardingCounter(CounterImpl(0))
 
     @Test
     fun `counts`() {
