@@ -8,8 +8,12 @@ The idiomatic way is to use `when` as an expression, not as a statement.
 
 https://kotlinlang.org/docs/reference/sealed-classes.html
 
-## Problem
+## Context
 
 - When using enums, each enum value only exists as a single instance, whereas a subclass of a sealed class can have multiple instances which can contain state.
 - The abstract base class can only be extended by classes which must be declared in the same file as the sealed class itself.
 - The key benefit of using sealed classes comes into play when you use them in a `when` expression.
+
+## Problem
+
+In which context would you use something like this?

@@ -30,12 +30,15 @@ Switch to the `solutions` branch if you want to see the solutions for the exerci
 
 ### List of exercises
 
+The exercises in bold don't have a concrete exercise to implement, they are more of a showcase with some code that can be played with.
+
 #### Classes
 
 - [dataclasses](./src/main/kotlin/com/hceris/kotlintapas/dataclasses/README.md): Get to know data classes, the alternative to [Lombok](https://projectlombok.org/)
 - [destructuring](./src/main/kotlin/com/hceris/kotlintapas/destructuring/README.md): Destructuring, a way of accessing multiple attributes at the same time
 - [inheritance](./src/main/kotlin/com/hceris/kotlintapas/inheritance/README.md): How does inheritance look like in _Kotlin_?
 - [delegation](./src/main/kotlin/com/hceris/kotlintapas/delegation/README.md): Forwarding done easy
+- [**sealed classes**](./src/main/kotlin/com/hceris/kotlintapas/sealedclasses/README.md): Closed hierarchies
 
 #### Functions
 
