@@ -10,7 +10,7 @@ internal class ComposerKtTest {
 
     @Test
     fun `pipes functions`() {
-        val piped = pipe(plus5, asString)
+        val piped = plus5 pipe asString
         expectThat(piped(3)).isEqualTo("8")
     }
 }
