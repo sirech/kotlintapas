@@ -40,15 +40,18 @@ Some exercises use concepts explained in other tapas. The _dependsOn_ will help 
 - [destructuring](./src/main/kotlin/com/hceris/kotlintapas/destructuring/README.md): Destructuring, a way of accessing multiple attributes at the same time
 - [inheritance](./src/main/kotlin/com/hceris/kotlintapas/inheritance/README.md): How does inheritance look like in _Kotlin_?
 - [delegation](./src/main/kotlin/com/hceris/kotlintapas/delegation/README.md): Forwarding done easy
+  - dependsOn: properties
 - [**sealed classes**](./src/main/kotlin/com/hceris/kotlintapas/sealedclasses/README.md): Closed hierarchies
 
 #### Functions
 
 - [Higher-order functions](./src/main/kotlin/com/hceris/kotlintapas/higherorderfunctions/README.md): Functions that receive or return functions
+  - dependsOn: extensions
 
 #### Collections
 
 - [ranges](./src/main/kotlin/com/hceris/kotlintapas/ranges/README.md): How to manipulate ranges
+  - dependsOn: operators
 - [Lambdas](./src/main/kotlin/com/hceris/kotlintapas/lambdas/README.md): Expressing your code in terms of lambdas
 - [Grouping](./src/main/kotlin/com/hceris/kotlintapas/grouping/README.md): Grouping collections
 
