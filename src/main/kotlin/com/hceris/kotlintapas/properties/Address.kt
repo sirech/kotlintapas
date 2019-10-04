@@ -1,6 +1,6 @@
 package com.hceris.kotlintapas.properties
 
-class Address(street: String, zip: String) {
-    val street = street
-    val zip = zip
+class Address(_street: String, _zip: String) {
+    val street: String by lazy { _street.toLowerCase() }
+    val zip: String by lazy { _zip.trim().replace("_", "") }
 }
