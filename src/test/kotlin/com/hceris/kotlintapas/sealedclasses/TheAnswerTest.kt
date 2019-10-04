@@ -25,6 +25,6 @@ internal class TheAnswerTest {
 
     @Test
     internal fun `isTheAnswerToEverything for 13 returns false`() {
-        expectThat(isTheAnswerToEverything(42)).isFalse()
+        expectThat(isTheAnswerToEverything(13)).isFalse()
     }
 }
