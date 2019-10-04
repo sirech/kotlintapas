@@ -57,6 +57,6 @@ Some exercises use concepts explained in other tapas. The _dependsOn_ will help 
 - [scopes](./src/main/kotlin/com/hceris/kotlintapas/scopes/README.md): Less verbosity with scopes
 - [extensions](./src/main/kotlin/com/hceris/kotlintapas/extensions/README.md): Extend objects with extension functions
 - [null safety](./src/main/kotlin/com/hceris/kotlintapas/nullsafety/README.md): Handle `null` with care
--- dependsOn: scopes, extensions
+  - dependsOn: scopes, extensions
 
 
