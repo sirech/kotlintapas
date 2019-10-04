@@ -32,6 +32,8 @@ Switch to the `solutions` branch if you want to see the solutions for the exerci
 
 The exercises in bold don't have a concrete exercise to implement, they are more of a showcase with some code that can be played with.
 
+Some exercises use concepts explained in other tapas. The _dependsOn_ will help you visualize that. Other than that, there is no intended order. Follow your curiosity!
+
 #### Classes
 
 - [dataclasses](./src/main/kotlin/com/hceris/kotlintapas/dataclasses/README.md): Get to know data classes, the alternative to [Lombok](https://projectlombok.org/)
@@ -54,4 +56,7 @@ The exercises in bold don't have a concrete exercise to implement, they are more
 
 - [scopes](./src/main/kotlin/com/hceris/kotlintapas/scopes/README.md): Less verbosity with scopes
 - [extensions](./src/main/kotlin/com/hceris/kotlintapas/extensions/README.md): Extend objects with extension functions
+- [null safety](./src/main/kotlin/com/hceris/kotlintapas/nullsafety/README.md): Handle `null` with care
+-- dependsOn: scopes, extensions
+
 
