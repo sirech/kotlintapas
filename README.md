@@ -64,5 +64,6 @@ Some exercises use concepts explained in other tapas. The _dependsOn_ will help 
 - [null safety](./src/main/kotlin/com/hceris/kotlintapas/nullsafety/README.md): Handle `null` with care
   - dependsOn: scopes, extensions
 - [operators](./src/main/kotlin/com/hceris/kotlintapas/operators/README.md): Operator overloading
+- [exceptions](./src/main/kotlin/com/hceris/kotlintapas/exceptions/README.md): Exceptions in Kotlin
 
 
