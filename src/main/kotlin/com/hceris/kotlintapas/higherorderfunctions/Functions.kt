@@ -9,5 +9,5 @@ fun <T, U> Collection<T>.ourMap(transform: (T) -> U): Collection<U> {
 }
 
 fun Collection<Int>.multiplyByN(n: Int): () -> Collection<Int> {
-    return { this }
+    return { ourMap { it * n } }
 }
