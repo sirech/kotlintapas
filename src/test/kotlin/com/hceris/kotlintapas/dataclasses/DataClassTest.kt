@@ -16,7 +16,7 @@ internal class DataClassTest {
 
     @Test
     fun `making a copy`() {
-        val copy = DataClass(one.a, one.b)
+        val copy = one.copy()
         expectThat(one)
             .isEqualTo(copy)
     }
