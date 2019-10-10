@@ -2,9 +2,10 @@ package com.hceris.kotlintapas.exceptions
 
 class News {
     fun good() = "good"
-    fun bad(): String {
+    fun bad() = try {
         moodyOperation()
-        return "bad"
+    } catch (e: IllegalStateException) {
+        "bad"
     }
 
     private fun moodyOperation(): Nothing {
