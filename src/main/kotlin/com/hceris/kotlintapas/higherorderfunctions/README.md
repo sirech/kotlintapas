@@ -11,3 +11,4 @@ https://kotlinlang.org/docs/reference/lambdas.html
 ## Problem
 
 - Implement the `ourMap` function so that the test passes.
+- Implement using `ourMap` the abstract `multiplyByN`, which can be used to multiply the collection by any number.
